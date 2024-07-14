@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "llms-from-scratch"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry Labazkin <labdmitriy@gmail.com>"]
+readme = "README.md"
+
+[[tool.poetry.source]]
+name = "torch_cpu"
+url = "https://download.pytorch.org/whl/cpu"
+priority = "supplemental"
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = ">=2.0.1"
+jupyterlab = ">=4.0"
+tiktoken = ">=0.5.1"
+matplotlib = ">=3.7.1"
+tensorflow-cpu = ">=2.15.0"
+tqdm = ">=4.66.1"
+numpy = ">=1.25,"
+pandas = ">=2.2.1"
+psutil = ">=5.9.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
