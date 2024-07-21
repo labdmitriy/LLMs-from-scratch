@@ -25,6 +25,7 @@ tqdm = ">=4.66.1"
 numpy = ">=1.25,"
 pandas = ">=2.2.1"
 psutil = ">=5.9.5"
+transformers = "^4.42.4"
 
 [build-system]
 requires = ["poetry-core"]
