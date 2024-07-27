@@ -51,8 +51,8 @@ Alternatively, you can view this and other files on GitHub at [https://github.co
 [![Code tests (Linux)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-linux.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-linux.yml)
 [![Code tests (Windows)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-windows.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-windows.yml)
 [![Code tests (macOS)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-macos.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-macos.yml)
-[![Check Python style](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/pep8-linter.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/pep8-linter.yml)
-[![Check hyperlinks](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/check-links.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/check-links.yml)
+
+
 
 <br>
 
@@ -102,6 +102,7 @@ Several folders contain optional materials as a bonus for interested readers:
   - [Dataloader Intuition with Simple Numbers](ch02/04_bonus_dataloader-intuition)
 - **Chapter 3:**
   - [Comparing Efficient Multi-Head Attention Implementations](ch03/02_bonus_efficient-multihead-attention/mha-implementations.ipynb)
+  - [Understanding PyTorch Buffers](ch03/03_understanding-buffers/understanding-buffers.ipynb)
 - **Chapter 4:**
   - [FLOPS Analysis](ch04/02_performance-analysis/flops-analysis.ipynb)
 - **Chapter 5:**
@@ -120,8 +121,17 @@ Several folders contain optional materials as a bonus for interested readers:
 <br>
 &nbsp
 
+### Questions, Feedback, and Contributing to This Repository
 
 
+I welcome all sorts of feedback, best shared via the [Discussions](https://github.com/rasbt/LLMs-from-scratch/discussions) forum. Likewise, if you have any questions or just want to bounce ideas off others, please don't hesitate to post these in the forum as well.
+
+If you notice any problems or issues, please do not hesitate to file an [Issue](https://github.com/rasbt/LLMs-from-scratch/issues).
+
+However, since this repository contains the code corresponding to a print book, I currently cannot accept contributions that would extend the contents of the main chapter code, as it would introduce deviations from the physical book.
+
+
+&nbsp;
 ### Citation
 
 If you find this book or code useful for your research, please consider citing it:
