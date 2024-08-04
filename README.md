@@ -117,22 +117,24 @@ Several folders contain optional materials as a bonus for interested readers:
   - [Dataset Utilities for Finding Near Duplicates and Creating Passive Voice Entries](ch07/02_dataset-utilities)
   - [Evaluating Instruction Responses Using the OpenAI API and Ollama](ch07/03_model-evaluation)
   - [Generating a Dataset for Instruction Finetuning](ch07/05_dataset-generation)
+  - [Generating a Preference Dataset with Llama 3.1 70B and Ollama](ch07/04_preference-tuning-with-dpo/create-preference-data-ollama.ipynb)
+  - [Direct Preference Optimization (DPO) for LLM Alignment](ch07/04_preference-tuning-with-dpo/dpo-from-scratch.ipynb)
 
 <br>
 &nbsp
 
-### Questions, Feedback, and Contributing to This Repository
+## Questions, Feedback, and Contributing to This Repository
 
 
 I welcome all sorts of feedback, best shared via the [Discussions](https://github.com/rasbt/LLMs-from-scratch/discussions) forum. Likewise, if you have any questions or just want to bounce ideas off others, please don't hesitate to post these in the forum as well.
 
 If you notice any problems or issues, please do not hesitate to file an [Issue](https://github.com/rasbt/LLMs-from-scratch/issues).
 
-However, since this repository contains the code corresponding to a print book, I currently cannot accept contributions that would extend the contents of the main chapter code, as it would introduce deviations from the physical book.
+However, since this repository contains the code corresponding to a print book, I currently cannot accept contributions that would extend the contents of the main chapter code, as it would introduce deviations from the physical book. Keeping it consistent helps ensure a smooth experience for everyone.
 
 
 &nbsp;
-### Citation
+## Citation
 
 If you find this book or code useful for your research, please consider citing it:
 
